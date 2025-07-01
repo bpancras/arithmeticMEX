@@ -2,6 +2,8 @@ name: releaseWorkflow
 
 on:
   push:
+    branches:
+      - mexBuildWithActions
     tags:
       - '*'
 jobs:
