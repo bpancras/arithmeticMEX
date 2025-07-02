@@ -1,5 +1,6 @@
 function plan = buildfile
     % Create a plan from the task functions
+    ver
     plan = buildplan(localfunctions);
     
     % Output folder for MEX functions
