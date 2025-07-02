@@ -54,4 +54,5 @@ end
 
 function debugTask(~)
     ls(fullfile("toolbox", "private"))
+    path
 end
