@@ -197,17 +197,20 @@
         </File>
     </Files>
     <ProjectPath Location="Root">
+        <Reference Location="1f122218-d361-4439-989d-43ade301bc5e">
+            <Info Ref="toolbox/apps" Type="Relative"/>
+        </Reference>
+        <Reference Location="3a926257-1d40-4df6-84a6-1e4f4e123ad4">
+            <Info Ref="toolbox/examples" Type="Relative"/>
+        </Reference>
+        <Reference Location="47280a9a-492b-4aec-886b-24d28ce0b391">
+            <Info Ref="toolbox/internal" Type="Relative"/>
+        </Reference>
         <Reference Location="4784743b-a6a3-4fd0-9a02-5faf9eb4c028">
             <Info Ref="toolbox" Type="Relative"/>
         </Reference>
         <Reference Location="8b8af85e-0d74-4952-9476-8b74dd4bf217">
             <Info Ref="tests" Type="Relative"/>
-        </Reference>
-        <Reference Location="47280a9a-492b-4aec-886b-24d28ce0b391">
-            <Info Ref="toolbox/internal" Type="Relative"/>
-        </Reference>
-        <Reference Location="971d856c-ea12-4c02-b0b2-372574717980">
-            <Info Ref="" Type="Relative"/>
         </Reference>
     </ProjectPath>
     <Files Location="MathWorksDeploymentConfig{5a3acb9f-8b98-4442-ad64-39ac2e5315f3}">
