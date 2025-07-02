@@ -18,10 +18,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Set up MATLAB
         uses: matlab-actions/setup-matlab@v2
-      - name: Run build task
+      - name: Run mex task
         uses: matlab-actions/run-build@v2
         with:
           tasks: mex
+      - name: Run test task
         uses: matlab-actions/run-build@v2
         with:
           tasks: test
