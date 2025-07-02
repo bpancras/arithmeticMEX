@@ -55,4 +55,5 @@ end
 function debugTask(~)
     ls(fullfile("toolbox", "private"))
     path
+    pwd
 end
