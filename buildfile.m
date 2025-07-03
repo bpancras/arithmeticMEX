@@ -1,6 +1,6 @@
 function plan = buildfile
 % Create a plan from the task functions
-ver
+open("arithmetic.prj")
 plan = buildplan(localfunctions);
 
 % Output folder for MEX functions
